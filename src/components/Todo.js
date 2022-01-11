@@ -9,7 +9,7 @@ class ToDo extends React.Component {
     return (
       <div
         onClick={this.handleClick}
-        className={`item${this.props.item.completed ? 'completed' : ''}`}
+        className={`item${this.props.item.completed ? ' completed' : ''}`}
       >
         <p>{this.props.item.task}</p>
       </div>
